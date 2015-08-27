@@ -98,11 +98,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/bacon/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/oneplus/bacon/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/oneplus/bacon/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
-    vendor/oneplus/bacon/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
     vendor/oneplus/bacon/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/oneplus/bacon/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/oneplus/bacon/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-    vendor/oneplus/bacon/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
     vendor/oneplus/bacon/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/oneplus/bacon/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/oneplus/bacon/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
