@@ -36,3 +36,5 @@ PRODUCT_PACKAGES += \
     libwvdrm_L3 \
     libwvm \
     libWVStreamControlAPI_L3
+
+$(call inherit-product, vendor/oneplus/bacon/bacon-vendor-blobs.mk)

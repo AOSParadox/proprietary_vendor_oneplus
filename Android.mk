@@ -14,8 +14,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-#ifeq ($(PRODUCT_DEVICE),bacon)
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.qualcomm.location
 LOCAL_MODULE_OWNER := oppo
@@ -220,6 +218,3 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
-
-#endif
-
