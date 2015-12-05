@@ -44,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/bacon/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/oneplus/bacon/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/oneplus/bacon/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/oneplus/bacon/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/oneplus/bacon/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/oneplus/bacon/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/oneplus/bacon/proprietary/bin/lowi-server:system/bin/lowi-server \
