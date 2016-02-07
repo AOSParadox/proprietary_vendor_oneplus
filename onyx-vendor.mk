@@ -27,7 +27,8 @@ PRODUCT_PACKAGES += \
     libmm-abl \
     libtime_genoff \
     libTimeService \
-    TimeService
+    TimeService \
+    liblisten
 
 PRODUCT_PACKAGES += \
     libqmi \
