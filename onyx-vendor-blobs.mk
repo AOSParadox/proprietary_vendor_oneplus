@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
+    vendor/oneplus/onyx/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
@@ -51,6 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/oneplus/onyx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/oneplus/onyx/proprietary/etc/firmware/tfa98xx.cnt:system/etc/firmware/tfa98xx.cnt \
     vendor/oneplus/onyx/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/oneplus/onyx/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
@@ -187,8 +189,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/oneplus/onyx/proprietary/etc/firmware/tp/15055/15055_FW_S3508_Tpk.img:system/etc/firmware/tp/15055/15055_FW_S3508_Tpk.img \
     vendor/oneplus/onyx/proprietary/etc/firmware/tp/15055/15055_Limit_Tpk.img:system/etc/firmware/tp/15055/15055_Limit_Tpk.img \
-    vendor/oneplus/onyx/proprietary/bin/wcnss_service:system/bin/wcnss_service \
-    vendor/oneplus/onyx/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so
+    vendor/oneplus/onyx/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
+    vendor/oneplus/onyx/proprietary/bin/mtpd:system/bin/mtpd \
+    vendor/oneplus/onyx/proprietary/lib/libmtp.so:system/lib/libmtp.so
 endif
 
 PRODUCT_COPY_FILES += \
@@ -252,6 +255,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
+    vendor/oneplus/onyx/proprietary/lib/libopcamera.so:system/lib/libopcamera.so \
+    vendor/oneplus/onyx/proprietary/lib/libopcameralib.so:system/lib/libopcameralib.so \
+    vendor/oneplus/onyx/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_ov5648_zsl.so:system/vendor/lib/libchromatix_ov5648_zsl.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_s5k3m2_zsl.so:system/vendor/lib/libchromatix_s5k3m2_zsl.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_imx214_common.so:system/vendor/lib/libchromatix_imx214_common.so \
@@ -289,6 +295,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_s5k3m2_common_panorama.so:system/vendor/lib/libchromatix_s5k3m2_common_panorama.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_s5k3m2_preview_panorama.so:system/vendor/lib/libchromatix_s5k3m2_preview_panorama.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_s5k3m2_snapshot_panorama.so:system/vendor/lib/libchromatix_s5k3m2_snapshot_panorama.so \
+    vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_ov8858_small_video.so:system/vendor/lib/libchromatix_ov8858_small_video.so \
     vendor/oneplus/onyx/proprietary/lib/libFNVfbEngineLib.so:system/lib/libFNVfbEngineLib.so \
     vendor/oneplus/onyx/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/oneplus/onyx/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
