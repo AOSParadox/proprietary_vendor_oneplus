@@ -18,7 +18,6 @@
 DEVICE_PACKAGE_OVERLAYS += vendor/oneplus/onyx/overlay
 
 PRODUCT_PACKAGES += \
-    com.qualcomm.location \
     qcrilmsgtunnel \
     shutdownlistener
 
