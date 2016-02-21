@@ -201,6 +201,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/oneplus/onyx/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/oneplus/onyx/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/oneplus/onyx/proprietary/lib/liboemperf.so:system/lib/liboemperf.so \
     vendor/oneplus/onyx/proprietary/lib/liboneplus_camera.so:system/lib/liboneplus_camera.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
