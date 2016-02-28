@@ -189,10 +189,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/oneplus/onyx/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/oneplus/onyx/proprietary/etc/firmware/tp/15055/15055_FW_S3508_Tpk.img:system/etc/firmware/tp/15055/15055_FW_S3508_Tpk.img \
-    vendor/oneplus/onyx/proprietary/etc/firmware/tp/15055/15055_Limit_Tpk.img:system/etc/firmware/tp/15055/15055_Limit_Tpk.img \
-    vendor/oneplus/onyx/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
-    vendor/oneplus/onyx/proprietary/bin/mtpd:system/bin/mtpd \
-    vendor/oneplus/onyx/proprietary/lib/libmtp.so:system/lib/libmtp.so
+    vendor/oneplus/onyx/proprietary/etc/firmware/tp/15055/15055_Limit_Tpk.img:system/etc/firmware/tp/15055/15055_Limit_Tpk.img
 endif
 
 PRODUCT_COPY_FILES += \
